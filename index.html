@@ -1,192 +1,98 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Links-->
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://kit.fontawesome.com/cc3a0e2833.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="css/styles.css">
-
-  <title>StudyBuddy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio | Political Science & International Relations</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
-    <a class="navbar-brand font-weight-bold" href="#">StudyBuddy</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-        <li class="nav-item"><a class="nav-link" href="#cta">Download</a></li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <div class="intro">
+            <h1>Your Name</h1>
+            <p>Political Science & International Relations Student</p>
+            <a class="cv-button" href="YourCV.pdf" target="_blank">Download CV</a>
+        </div>
+    </header>
 
-  <!-- Section 1 -->
-  <section id="title" class="bg-light hero-section py-5">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-lg-6 text-center text-lg-left">
-          <h1 class="display-4 font-weight-bold">Meet new and interesting study buddies.</h1>
-          <p class="lead mt-3">Collaborate, learn, and grow with peers who share your goals.</p>
-          <div class="mt-4">
-            <a href="https://apps.apple.com/us/app/study-bunny-focus-timer/id1478345385" class="btn btn-dark btn-lg mr-2">
-              <i class="fa-brands fa-apple fa-beat"></i> Download
-            </a>
-            <a href="https://play.google.com/store/apps/details?id=com.superbyte.studybunny" class="btn btn-dark btn-lg">
-              <i class="fa-brands fa-google-play fa-bounce"></i> Download
-            </a>
-          </div>
-        </div>
-        <div class="col-lg-6 text-center">
-          <img class="title-image rounded shadow-lg" src="images/brofessor.jpg" alt="phone">
-        </div>
-      </div>
-    </div>
-  </section>
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#focus">Academic Focus</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
-  <!-- Features -->
-  <section id="features" class="py-5">
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="font-weight-bold">Why Choose StudyBuddy?</h2>
-        <p>All the tools you need to study smarter, not harder.</p>
-      </div>
-      <div class="row text-center">
-        <div class="col-lg-4 mb-4 feature-box">
-          <i class="icon fa-solid fa-check-double fa-4x mb-3"></i>
-          <h3>Easy to Use</h3>
-          <p>Finding a study partner has never been easier!</p>
-        </div>
-        <div class="col-lg-4 mb-4 feature-box">
-          <i class="icon fa-solid fa-star fa-4x mb-3"></i>
-          <h3>Fantastic Students</h3>
-          <p>Connect people from all majors.</p>
-        </div>
-        <div class="col-lg-4 mb-4 feature-box">
-          <i class="icon fa-solid fa-check-to-slot fa-4x mb-3"></i>
-          <h3>Guaranteed Buddy</h3>
-          <p>Never study alone ever again, you'll have someone with you!</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a Political Science and International Relations student with a passion for foreign policy, 
+            diplomacy, conflict resolution, and global governance. I focus on understanding how international 
+            institutions shape state behavior and the mechanisms that maintain or undermine world order.
+        </p>
+    </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials" class="py-5 bg-info text-white">
-    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="4000">
-      <div class="carousel-inner text-center">
-        <div class="carousel-item active">
-          <h4>"I no longer have to study alone. Lower stress!"</h4>
-          <img class="testimonial-image rounded-circle my-3 shadow" src="images/annie-spratt-unsplash.jpg" alt="Cindy">
-          <em>Cindy, UCSD</em>
-        </div>
-        <div class="carousel-item">
-          <h4>"Studying with like-minded people has made my grades better."</h4>
-          <img class="testimonial-image rounded-circle my-3 shadow" src="images/tamarcus-brown-unsplash.jpg" alt="James">
-          <em>James, UC Berkeley</em>
-        </div>
-        <div class="carousel-item">
-          <h4>"Collaborating with StudyBuddy helped me stay consistent and motivated."</h4>
-          <img class="testimonial-image rounded-circle my-3 shadow" src="images/study-img-300.jpg" alt="George">
-          <em>George, UCSB</em>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </a>
-      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </a>
-    </div>
-  </section>
+    <section id="focus" class="section">
+        <h2>Academic Focus</h2>
+        <div class="cards">
 
-  <!-- Press -->
-  <section id="press" class="py-5 text-center bg-light">
-    <img class="presslogo mx-3 my-2" src="images/Seal_of_the_United_States_Department_of_Education.svg (1).png" alt="Department of Education">
-    <img class="presslogo mx-3 my-2" src="images/Seal_of_the_University_of_California,_San_Diego.svg.png" alt="UCSD">
-    <img class="presslogo mx-3 my-2" src="images/PBS_logo_2019.svg.png" alt="PBS">
-    <img class="presslogo mx-3 my-2" src="images/unesco_logo_ver_blue_eng.png" alt="UNESCO">
-  </section>
+            <div class="card">
+                <h3>Foreign Policy Analysis</h3>
+                <p>
+                    Exploring how states make strategic decisions in global contexts, with special interest in 
+                    policy formation and geopolitical strategy.
+                </p>
+            </div>
 
-  <!-- Pricing -->
-  <section id="pricing" class="py-5 bg-light">
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="font-weight-bold">A Plan for Every Student</h2>
-        <p>Simple, flexible pricing for all budgets.</p>
-      </div>
-      <div class="row text-center">
-        <div class="col-lg-4 mb-4">
-          <div class="card plan plan-blue p-4 shadow-sm">
-            <h3>Honors</h3>
-            <h2>Free</h2>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>5 Matches Per Day</li>
-              <li>10 Messages Per Day</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <a href="https://www.berkeley.edu/" class="btn btn-outline-light btn-block">Sign Up</a>
-          </div>
+            <div class="card">
+                <h3>International Organizations</h3>
+                <p>
+                    Studying the role of institutions such as the UN, NATO, and WTO in mediating conflict and 
+                    facilitating cooperation.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Global Security</h3>
+                <p>
+                    Research on conflict resolution, peacebuilding, and the political drivers of international security issues.
+                </p>
+            </div>
+
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card plan plan-green p-4 shadow-sm">
-            <h3>Dean's List</h3>
-            <h2>$29.99</h2>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Unlimited Matches Per Day</li>
-              <li>Unlimited Messages Per Day</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <a href="https://ucsd.edu/" class="btn btn-outline-light btn-block">Sign Up</a>
-          </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Research & Projects</h2>
+
+        <div class="project-card">
+            <h3>Research Paper: The Future of Multilateral Diplomacy</h3>
+            <p>
+                An in-depth analysis of how rising geopolitical tensions impact the effectiveness of multilateral 
+                institutions. Includes case studies from the UN Security Council and EU foreign policy.
+            </p>
         </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card plan plan-yellow p-4 shadow-sm">
-            <h3>Magna Cum Laude Honors</h3>
-            <h2>$59.99</h2>
-            <ul class="list-unstyled mt-3 mb-4">
-              <li>Priority Listing</li>
-              <li>Unlimited Matches Per Day</li>
-              <li>Unlimited Messages Per Day</li>
-              <li>Unlimited App Usage</li>
-            </ul>
-            <a href="https://www.ucla.edu/" class="btn btn-outline-dark btn-block">Sign Up</a>
-          </div>
+
+        <div class="project-card">
+            <h3>Policy Brief: Human Rights in Contemporary Conflict</h3>
+            <p>
+                A concise policy recommendation document evaluating human rights challenges in developing conflict zones 
+                and offering actionable solutions for international NGOs.
+            </p>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Call To Action -->
-  <section id="cta" class="py-5 text-center bg-primary text-white">
-    <h3 class="font-weight-bold">Find your best study buddy today!</h3>
-    <div class="mt-3">
-      <a href="https://apps.apple.com/us/app/study-bunny-focus-timer/id1478345385" class="btn btn-dark btn-lg mr-2">
-        <i class="fa-brands fa-apple fa-beat"></i> Download
-      </a>
-      <a href="https://play.google.com/store/apps/details?id=com.superbyte.studybunny" class="btn btn-dark btn-lg">
-        <i class="fa-brands fa-google-play fa-bounce"></i> Download
-      </a>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center">
-    <p>2025 StudyBuddy</p>
-  </footer>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: yourname@example.com</p>
+        <p>LinkedIn: <a href="#" target="_blank">Your LinkedIn</a></p>
+        <p>GitHub: <a href="#" target="_blank">Your GitHub</a></p>
+    </section>
 
-  <!-- Other stuff (needed) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <footer>
+        <p>© 2025 Your Name — Political Science & International Relations Portfolio</p>
+    </footer>
 
 </body>
+</html>
