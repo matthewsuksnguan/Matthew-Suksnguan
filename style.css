@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+    background-color: hsl(207, 100%, 18%);
+    color: hsl(0, 0%, 0%);
+}
+
+
+.hero {
+    background: url('images/image1.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 120px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #ffffff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cv-button:hover {
+    background: #ffffff;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: hsl(207, 100%, 18%);
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #70e3ec;
+}
+
+
+.section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card, .project-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 280px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover, .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+}
